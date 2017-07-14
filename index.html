@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -46,12 +46,28 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Portfolio Site</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Eli Mordechai</a>
             </div>
+
+            <!-- <div class="col-lg-4 text-center">
+              <a href="https://github.com/Elimor5"><i class="fa fa-github git-in-footer"></i></a>
+              <a href="https://www.linkedin.com/in/eli-mordechai-4781b799"><i class="fa fa-linkedin git-in-footer" ></i></a>
+              <a href="https://angel.co/eli-mordechai-1"><i class="fa fa-angellist git-in-footer" ></i></a>
+            </div> -->
+
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a target="_blank" href="https://github.com/Elimor5"><i style="font-size: 22px;" class= "fa fa-github .navbar-default .nav"></i> </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/eli-mordechai-4781b799"><i  style="font-size: 22px;" class="fa fa-linkedin .navbar-default .nav" ></i></a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://angel.co/eli-mordechai-1"><i  style="font-size: 22px;" class="fa fa-angellist .navbar-default .nav" ></i></a>
+                    </li>
                     <li>
                         <a class="page-scroll" href="#about">About ME</a>
                     </li>
@@ -78,9 +94,9 @@
                 <hr>
                 <p class="title-header">FULL STACK DEVELOPER FROM NYC</p>
 
-                <a href="https://github.com/Elimor5"><i class="fa fa-github git-in"></i></a>
-                <a href="https://www.linkedin.com/in/eli-mordechai-4781b799"><i class="fa fa-linkedin git-in" aria-hidden="true"></i></a>
-                <a href="https://angel.co/eli-mordechai-1"><i class="fa fa-angellist git-in" aria-hidden="true"></i></a>
+                <a target="_blank" href="https://github.com/Elimor5"><i class="fa fa-github git-in"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/eli-mordechai-4781b799"><i class="fa fa-linkedin git-in" aria-hidden="true"></i></a>
+                <a target="_blank" href="https://angel.co/eli-mordechai-1"><i class="fa fa-angellist git-in" aria-hidden="true"></i></a>
             </div>
         </div>
     </header>
@@ -92,8 +108,10 @@
                     <h2 class="section-heading">ABOUT ME</h2>
                     <hr class="light">
                     <img style="margin-bottom: 13px;" src="img/portfolio/thumbnails/Elisha_Mordechai.jpg" alt="" />
-                    <p class="text-faded">I’m Eli, a full stack web developer with experience in Ruby on Rails, JavaScript and React.js/ Redux. I also have a background in real estate. My goal is to create websites that are as breathtaking as Manhattan's skyline. I’m looking for an environment that is fast paced with opportunities to continue learning.</p>
-                    <a href="./resume.pdf" class="page-scroll btn btn-default btn-xl sr-button">DOWNLOAD RESUME</a>
+                    <div class="bio-container">
+                      <p class="text-faded bio-desc">I’m Eli, a full stack web developer with experience in Ruby on Rails, JavaScript and React.js/ Redux. I also have a background in real estate. My goal is to create websites that are as breathtaking as Manhattan's skyline. I’m looking for an environment that is fast paced with opportunities to continue learning. I love to travel and to meet new people. My goal as a programmer and in life is to make the world a better place. </p>
+                    </div>
+                    <a target="_blank" href="./resume.pdf" class="page-scroll btn btn-default btn-xl sr-button"> RESUME</a>
                 </div>
             </div>
         </div>
@@ -173,7 +191,7 @@
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio/thumbnails/pong_screenshot.png" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -186,6 +204,35 @@
                         </div>
                     </a>
                 </div>
+                <div class="col-lg-4 col-sm-6">
+                    <h1 class='project-title'>Illumevents</h1>
+                    <div class="projec-desc-container">
+                      <p class="project-desc">
+                        An Eventbrite-inspired web app is a clone of Eventbrite constructed over two weeks, built on React/Redux on the frontend and Ruby on Rails on the backend, which allows users to create events, bookmark events and purchase tickets to other events.
+                      </p>
+                      <a target="_blank" class="project-link" href="https://github.com/Elimor5/illumevents"> Github Repo</a>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <h1 class='project-title'>DOMod</h1>
+                    <div class="projec-desc-container">
+                      <p class="project-desc">
+                        DOM manipulation library built in vanilla JavaScript that mimics jQuery functionality with respect to DOM manipulation and traversal functions.
+                      </p>
+                      <a target="_blank" class="project-link" href="https://github.com/Elimor5/DOMod"> Github Repo</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <h1 class='project-title'>SPORTS PONG</h1>
+                    <div class="projec-desc-container">
+                      <p class="project-desc">
+                      Inspired by the classic ATARI game, Sports pong uses HTML5 Canvas, CSS and Vanilla JavaScript to create a sports themed interactive pong game.
+                      </p>
+                      <a target="_blank" class="project-link" href="https://github.com/Elimor5/Sports-Pong"> Github Repo</a>
+
+                    </div>
+                </div>
+
                 <!-- <div class="col-lg-4 col-sm-6">
                     <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
                         <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">

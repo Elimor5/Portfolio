@@ -40,7 +40,7 @@ h6 {
 p {
   font-size: 16px;
   line-height: 1.5;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
 }
 .bg-primary {
   background-color: #F05F40;
@@ -108,7 +108,7 @@ aside {
 @media (min-width: 768px) {
   .navbar-default {
     background-color: transparent;
-    border-color: rgba(255, 255, 255, 0.3);
+    /*border-color: rgba(255, 255, 255, 0.3);*/
   }
   .navbar-default .navbar-header .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
@@ -418,7 +418,7 @@ body {
 }
 
 #services{
-  background-color:azure;
+  background-color:cornflowerblue;
 }
 
 #portfolio{
@@ -430,4 +430,53 @@ body {
   font-size: 65px;
   margin: 10px;
   color: white;
+}
+
+.git-in:hover {
+  color: coral;
+}
+
+.git-in-header {
+  font-size: 22px !important;
+}
+
+.git-in-header:hover {
+
+}
+.cs-icon {
+  color: white !important;
+}
+
+.project-desc {
+  width: 465px;
+  text-align: center;
+}
+
+.bio-desc {
+  width: 465px;
+  text-align: center;
+}
+
+.project-title {
+  text-align: center;
+  margin-bottom: 23px;
+}
+
+.project-link {
+  color: blue;
+  font-size: 15px;
+  align-content: left;
+  margin-bottom: 20px;
+}
+
+.projec-desc-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

@@ -448,7 +448,7 @@ body {
 }
 
 .project-desc {
-  width: 465px;
+  width: 416px;
   text-align: center;
 }
 
@@ -479,4 +479,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.footer-items {
+  width: 26%;
+}
+
+.col-lg-offset-3 {
+  margin-left: 11%;
 }
